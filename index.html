@@ -48,14 +48,15 @@
     .review-btn{margin-top:22px;width:100%;border:2px dashed var(--line);background:transparent;color:var(--muted);border-radius:13px;padding:12px;font-weight:850}.review-btn.done{background:color-mix(in srgb,var(--good) 12%,var(--card));border-color:var(--good);color:var(--good)}
     .forces-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:24px;margin-top:35px}.force-menu{display:grid;gap:9px}.force-tab{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:16px;border-radius:14px;text-align:left;font-weight:850;display:flex;justify-content:space-between;align-items:center}.force-tab.active{background:var(--ink);color:var(--paper);transform:translateX(6px)}.force-stage{min-height:390px;border:2px solid var(--ink);background:var(--card);border-radius:25px;padding:28px;box-shadow:9px 9px 0 var(--yellow);display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:22px}.dcl{height:250px;position:relative;display:grid;place-items:center}.block{width:90px;height:70px;border:3px solid var(--ink);border-radius:10px;background:var(--yellow);display:grid;place-items:center;font-weight:950}.surface{position:absolute;left:12%;right:12%;bottom:64px;height:5px;background:var(--ink)}.arrow{position:absolute;font:950 1.1rem ui-monospace,monospace;color:var(--coral);text-align:center;white-space:pre-line}.arrow.up{top:28px}.arrow.down{bottom:8px}.arrow.left{left:8px;top:44%}.arrow.right{right:8px;top:44%}.force-details .formula-mini{font:950 1.7rem ui-monospace,monospace;color:var(--blue);margin:14px 0}.force-details p{color:var(--muted)}
     .calculator{margin-top:45px;background:var(--navy);color:white;border-radius:28px;padding:28px;display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;box-shadow:12px 12px 0 var(--cyan)}.calculator p{color:#cad5e3}.calc-fields{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.field label{display:block;font-size:.8rem;font-weight:850;margin-bottom:6px;color:#cad5e3}.field input{background:#fff;color:#101828}.calc-result{grid-column:1/-1;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);padding:15px;border-radius:12px;font:850 1rem ui-monospace,monospace;color:var(--lime)}
+    .formula-decoder{margin-top:48px}.formula-tabs{display:flex;gap:9px;flex-wrap:wrap;margin:25px 0 18px}.formula-tab{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:10px 14px;font-weight:850;transition:.18s}.formula-tab:hover{transform:translateY(-2px);border-color:var(--purple)}.formula-tab.active{background:var(--purple);border-color:var(--purple);color:white}.formula-panel{border:2px solid var(--ink);border-radius:28px;background:var(--card);box-shadow:12px 12px 0 var(--purple);overflow:hidden}.formula-panel-top{display:grid;grid-template-columns:.72fr 1.28fr;gap:28px;padding:30px;background:color-mix(in srgb,var(--purple) 8%,var(--card));border-bottom:1px solid var(--line)}.formula-big{min-height:170px;border-radius:20px;background:var(--navy);color:white;display:grid;place-items:center;text-align:center;padding:22px;font:950 clamp(1.8rem,5vw,3.3rem)/1.1 ui-monospace,monospace}.formula-big sub{font-size:.48em}.formula-big .formula-caption{display:block;font:750 .76rem/1.4 "Segoe UI",sans-serif;color:#c9d5e5;letter-spacing:.04em;margin-top:13px}.formula-intro p{color:var(--muted);margin-bottom:13px}.use-when{border-left:4px solid var(--purple);padding:12px 15px;background:color-mix(in srgb,var(--purple) 8%,transparent);border-radius:0 12px 12px 0}.formula-panel-body{padding:30px}.formula-section-title{font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;font-weight:950;color:var(--purple);margin:0 0 12px}.symbol-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}.symbol-card{border:1px solid var(--line);border-radius:14px;padding:15px;background:var(--paper)}.symbol-card code{display:inline-grid;place-items:center;min-width:39px;height:39px;padding:0 8px;border-radius:10px;background:var(--ink);color:var(--paper);font:950 1rem ui-monospace,monospace;margin-bottom:10px}.symbol-card strong,.symbol-card span{display:block}.symbol-card span{font-size:.87rem;color:var(--muted);margin-top:4px}.formula-bottom{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}.formula-note{border:1px solid var(--line);border-radius:16px;padding:18px;background:var(--paper)}.formula-note strong{display:block;margin-bottom:8px}.formula-note code{color:var(--blue);font-weight:950}.formula-warning{margin-top:16px;border-radius:14px;padding:14px 16px;background:color-mix(in srgb,var(--yellow) 28%,var(--card));border:1px solid color-mix(in srgb,var(--yellow) 65%,var(--line))}.no-formula-note{margin-top:22px;padding:19px;border:2px dashed var(--line);border-radius:16px;color:var(--muted)}.no-formula-note strong{color:var(--ink)}
     .strategy{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-top:38px}.step{position:relative;padding:22px 16px;border-block:1px solid var(--line);background:var(--card)}.step:first-child{border-left:1px solid var(--line);border-radius:18px 0 0 18px}.step:last-child{border-right:1px solid var(--line);border-radius:0 18px 18px 0}.step-no{width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-weight:950;margin-bottom:16px}.step:not(:last-child)::after{content:"→";position:absolute;right:-13px;top:28px;z-index:2;color:var(--coral);font-size:1.4rem;font-weight:950}.step p{font-size:.88rem;color:var(--muted);margin:7px 0 0}
     .traps{display:grid;gap:10px;margin-top:30px}.trap{border:1px solid var(--line);background:var(--card);border-radius:15px;overflow:hidden}.trap button{width:100%;border:0;background:transparent;color:var(--ink);padding:17px 19px;text-align:left;display:flex;justify-content:space-between;font-weight:900}.trap .answer{display:none;padding:0 19px 18px;color:var(--muted)}.trap.open .answer{display:block}.trap.open button span{transform:rotate(45deg)}
     .cards-layout{display:grid;grid-template-columns:1fr .62fr;gap:26px;margin-top:32px}.flashcard{height:300px;perspective:1200px;cursor:pointer}.flash-inner{height:100%;position:relative;transform-style:preserve-3d;transition:transform .55s}.flashcard.flipped .flash-inner{transform:rotateY(180deg)}.flash-face{position:absolute;inset:0;backface-visibility:hidden;border:2px solid var(--ink);border-radius:24px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;background:var(--card);box-shadow:9px 9px 0 var(--purple)}.flash-back{transform:rotateY(180deg);background:var(--navy);color:white}.flash-hint{font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;font-weight:900;color:var(--purple)}.flash-main{font-size:clamp(1.5rem,4vw,2.45rem);font-weight:950;line-height:1.1}.flash-controls{display:flex;align-items:center;justify-content:space-between;margin-top:15px}.flash-controls button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:8px 12px;font-weight:850}.session{border:1px solid var(--line);border-radius:24px;background:var(--card);padding:25px}.timer{font:950 3.2rem/1 ui-monospace,monospace;margin:18px 0}.session-actions{display:flex;gap:8px}.session-actions button{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:9px 11px;border-radius:9px;font-weight:800}
     .quiz-shell{margin-top:35px;border:2px solid var(--ink);border-radius:28px;background:var(--card);overflow:hidden;box-shadow:12px 12px 0 var(--coral)}.quiz-top{padding:18px 24px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:20px}.quiz-progress{flex:1;height:9px;background:var(--line);border-radius:20px;overflow:hidden}.quiz-progress span{height:100%;display:block;width:0;background:var(--coral);transition:.25s}.quiz-body{padding:clamp(24px,5vw,50px);min-height:420px}.question{font-size:clamp(1.35rem,3vw,2.15rem);font-weight:900;line-height:1.18;max-width:850px}.answers{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:27px}.answer-btn{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:16px;border-radius:13px;text-align:left;font-weight:750;transition:.16s}.answer-btn:hover:not(:disabled){border-color:var(--blue);transform:translateY(-2px)}.answer-btn.correct{background:color-mix(in srgb,var(--good) 14%,var(--card));border-color:var(--good)}.answer-btn.wrong{background:color-mix(in srgb,var(--bad) 12%,var(--card));border-color:var(--bad)}.feedback{display:none;margin-top:20px;padding:16px;border-radius:13px;background:color-mix(in srgb,var(--blue) 8%,var(--paper))}.feedback.show{display:block}.quiz-next{display:none;margin-top:18px}.quiz-next.show{display:inline-block}.score-ring{width:150px;height:150px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--good) var(--score),var(--line) 0);margin:20px auto;position:relative}.score-ring::after{content:"";position:absolute;inset:14px;border-radius:50%;background:var(--card)}.score-ring strong{z-index:1;font-size:2rem}.result{text-align:center;max-width:620px;margin:auto}.result p{color:var(--muted)}
     .summary-table{width:100%;border-collapse:separate;border-spacing:0;margin-top:30px;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden}.summary-table th,.summary-table td{padding:15px;text-align:left;border-bottom:1px solid var(--line)}.summary-table th{background:var(--ink);color:var(--paper)}.summary-table tr:last-child td{border-bottom:0}.summary-table td:first-child{font-weight:900}.cheats{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-top:22px}.cheat{padding:20px;border:2px solid var(--ink);border-radius:15px;background:var(--lime);color:#101828;box-shadow:5px 5px 0 #101828;transform:rotate(-.5deg);font-weight:900}.cheat:nth-child(2){background:var(--coral);color:white;transform:rotate(.6deg)}.cheat:nth-child(3){background:var(--cyan);transform:rotate(-.3deg)}
     footer{padding:45px 22px;text-align:center;background:var(--navy);color:#c8d4e4}footer strong{color:white}.toast{position:fixed;right:20px;bottom:20px;z-index:100;background:var(--ink);color:var(--paper);padding:12px 17px;border-radius:12px;box-shadow:var(--shadow);transform:translateY(120px);transition:.3s}.toast.show{transform:translateY(0)}
-    @media (max-width:900px){.navlinks{display:none}.hero-grid,.concept,.forces-grid,.calculator,.cards-layout{grid-template-columns:1fr}.orbit-card{height:400px;max-width:600px;width:100%;margin:auto}.sticky-title{position:static}.strategy{grid-template-columns:1fr 1fr}.step{border:1px solid var(--line)!important;border-radius:14px!important}.step::after{display:none}.force-stage{grid-template-columns:1fr}.quick-map{grid-template-columns:1fr}.giant-no{font-size:7rem}.section{padding:65px 0}}
-    @media (max-width:620px){.nav{padding:0 14px}.wrap{padding:0 16px}h1{font-size:3.25rem}.orbit-card{height:340px}.orbit.two{width:300px;height:220px}.orbit.one{width:210px;height:130px}.planet{width:95px;height:95px}.controls,.answers,.calc-fields,.cheats,.strategy{grid-template-columns:1fr}.section{padding:54px 0}.force-stage,.lab,.calculator{padding:19px}.summary-table{font-size:.82rem}.summary-table th,.summary-table td{padding:10px}.quiz-body{min-height:500px}.pushed .skater.a{transform:translateX(-68px)}.pushed .skater.b{transform:translateX(68px)}}
+    @media (max-width:900px){.navlinks{display:none}.hero-grid,.concept,.forces-grid,.calculator,.cards-layout,.formula-panel-top{grid-template-columns:1fr}.orbit-card{height:400px;max-width:600px;width:100%;margin:auto}.sticky-title{position:static}.strategy{grid-template-columns:1fr 1fr}.step{border:1px solid var(--line)!important;border-radius:14px!important}.step::after{display:none}.force-stage{grid-template-columns:1fr}.quick-map{grid-template-columns:1fr}.giant-no{font-size:7rem}.section{padding:65px 0}}
+    @media (max-width:620px){.nav{padding:0 14px}.wrap{padding:0 16px}h1{font-size:3.25rem}.orbit-card{height:340px}.orbit.two{width:300px;height:220px}.orbit.one{width:210px;height:130px}.planet{width:95px;height:95px}.controls,.answers,.calc-fields,.cheats,.strategy,.symbol-grid,.formula-bottom{grid-template-columns:1fr}.section{padding:54px 0}.force-stage,.lab,.calculator,.formula-panel-top,.formula-panel-body{padding:19px}.formula-tabs{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px}.formula-tab{flex:0 0 auto}.summary-table{font-size:.82rem}.summary-table th,.summary-table td{padding:10px}.quiz-body{min-height:500px}.pushed .skater.a{transform:translateX(-68px)}.pushed .skater.b{transform:translateX(68px)}}
     @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important}}
   </style>
 </head>
@@ -66,7 +67,7 @@
     <nav class="nav" aria-label="Navegação principal">
       <a class="brand" href="#inicio"><span class="brand-mark">N³</span> Órbita Newton</a>
       <div class="navlinks">
-        <a href="#leis">3 leis</a><a href="#forcas">Forças</a><a href="#estrategia">Como resolver</a><a href="#treino">Treino</a><a href="#resumo">Resumo</a>
+        <a href="#leis">3 leis</a><a href="#forcas">Forças</a><a href="#formulas">Fórmulas</a><a href="#estrategia">Como resolver</a><a href="#treino">Treino</a><a href="#resumo">Resumo</a>
       </div>
       <button class="icon-btn" id="themeBtn" aria-label="Alternar tema" title="Alternar tema">◐</button>
     </nav>
@@ -169,6 +170,41 @@
             <div class="force-details"><span class="eyebrow" id="forceTag">gravidade</span><h3 id="forceTitle">Força peso (P)</h3><div class="formula-mini" id="forceFormula">P = m · g</div><p id="forceText">É a atração gravitacional exercida pela Terra. Aponta sempre para o centro do planeta. Massa é medida em kg; peso é força e se mede em N.</p><p><strong id="forceExample">Exemplo:</strong> uma pessoa de 60 kg tem peso aproximado de 600 N na Terra, usando g = 10 m/s².</p></div>
           </div>
         </div>
+        <div class="formula-decoder" id="formulas">
+          <span class="eyebrow">Tradutor de fórmulas</span>
+          <h2>O que cada letra quer dizer?</h2>
+          <p class="lede">Uma fórmula é uma frase curta escrita com símbolos. Escolha uma abaixo para entender o que ela calcula, quando deve ser usada e qual é a unidade de cada termo.</p>
+          <div class="formula-tabs" role="tablist" aria-label="Escolha uma fórmula para estudar">
+            <button class="formula-tab active" role="tab" aria-selected="true" data-formula-key="inercia">Inércia</button>
+            <button class="formula-tab" role="tab" aria-selected="false" data-formula-key="dinamica">Dinâmica</button>
+            <button class="formula-tab" role="tab" aria-selected="false" data-formula-key="acao">Ação–reação</button>
+            <button class="formula-tab" role="tab" aria-selected="false" data-formula-key="peso">Peso</button>
+            <button class="formula-tab" role="tab" aria-selected="false" data-formula-key="atrito">Atrito</button>
+            <button class="formula-tab" role="tab" aria-selected="false" data-formula-key="mola">Mola</button>
+            <button class="formula-tab" role="tab" aria-selected="false" data-formula-key="normalTracao">Normal e tração</button>
+          </div>
+          <div class="formula-panel" aria-live="polite">
+            <div class="formula-panel-top">
+              <div class="formula-big"><div><span id="decoderEquation">ΣF = 0 ⇒ a = 0</span><span class="formula-caption" id="decoderCaption">Condição de equilíbrio ou MRU</span></div></div>
+              <div class="formula-intro">
+                <span class="eyebrow" id="decoderTag">1ª Lei de Newton</span>
+                <h3 id="decoderName">Condição da inércia</h3>
+                <p id="decoderPurpose">Esta relação diz que, quando todas as forças se equilibram, a velocidade do corpo não muda.</p>
+                <div class="use-when"><strong>Quando usar:</strong> <span id="decoderWhen">quando o corpo está em repouso, em MRU ou quando o enunciado diz que a velocidade é constante.</span></div>
+              </div>
+            </div>
+            <div class="formula-panel-body">
+              <p class="formula-section-title">Símbolo por símbolo</p>
+              <div class="symbol-grid" id="decoderSymbols"></div>
+              <div class="formula-bottom">
+                <div class="formula-note"><strong>Como reorganizar ou interpretar</strong><div id="decoderRearrange">Se ΣF = 0, então a = 0. Isso não obriga a velocidade a ser zero.</div></div>
+                <div class="formula-note"><strong>Exemplo resolvido</strong><div id="decoderExample">Um carro recebe 500 N para a direita e 500 N para a esquerda: ΣF = 0 N, portanto a = 0 m/s².</div></div>
+              </div>
+              <div class="formula-warning"><strong>Atenção:</strong> <span id="decoderWarning">aceleração zero pode significar repouso ou movimento com velocidade constante.</span></div>
+            </div>
+          </div>
+          <div class="no-formula-note"><strong>Normal e tração não têm uma fórmula universal.</strong> Seus valores dependem da situação. Normalmente você as encontra desenhando as forças e aplicando <strong>ΣF = m·a</strong> em cada eixo.</div>
+        </div>
         <div class="calculator">
           <div><span class="eyebrow" style="color:var(--lime)">Calculadora da 2ª lei</span><h3 style="font-size:2rem">Descubra a incógnita.</h3><p>Deixe vazio apenas o valor que você quer encontrar e preencha os outros dois.</p></div>
           <div class="calc-fields"><div class="field"><label for="calcF">Força resultante (N)</label><input id="calcF" type="number" placeholder="ex.: 20" /></div><div class="field"><label for="calcM">Massa (kg)</label><input id="calcM" type="number" placeholder="ex.: 4" /></div><div class="field"><label for="calcA">Aceleração (m/s²)</label><input id="calcA" type="number" placeholder="deixe vazio" /></div><div class="calc-result" id="calcResult">Preencha dois campos para calcular o terceiro.</div></div>
@@ -248,6 +284,76 @@
       elastica:{tag:'mola',title:'Força elástica (Fel)',formula:'Fel = k · x',text:'Surge quando uma mola é deformada e aponta no sentido de restaurar o comprimento natural. k mede a rigidez e x é a deformação.',example:'Quanto mais rígida a mola ou maior a deformação, maior a força elástica.',arrow:'← Fel',cls:'left'}
     };
     $$('.force-tab').forEach(btn=>btn.onclick=()=>{$$('.force-tab').forEach(b=>b.classList.remove('active'));btn.classList.add('active');const d=forceData[btn.dataset.force];$('#forceTag').textContent=d.tag;$('#forceTitle').textContent=d.title;$('#forceFormula').textContent=d.formula;$('#forceText').textContent=d.text;$('#forceExample').textContent=d.example;const ar=$('#arrowMain');ar.textContent=d.arrow;ar.className='arrow '+d.cls;});
+
+    // Formula decoder
+    const formulaData={
+      inercia:{
+        equation:'ΣF = 0 ⇒ a = 0',caption:'Condição de equilíbrio ou MRU',tag:'1ª Lei de Newton',name:'Condição da inércia',
+        purpose:'Esta relação diz que, quando todas as forças se equilibram, a velocidade do corpo não muda.',
+        when:'quando o corpo está em repouso, em MRU ou quando o enunciado diz que a velocidade é constante.',
+        symbols:[['ΣF','força resultante','É a soma vetorial de todas as forças. Unidade: newton (N).'],['0','resultante nula','As forças se equilibram; isso não significa que nenhuma força exista.'],['a','aceleração','Mede a variação da velocidade. Unidade: m/s².']],
+        rearrange:'Se ΣF = 0, então a = 0. Isso não obriga a velocidade a ser zero: ela também pode ser constante e diferente de zero.',
+        example:'Um carro recebe 500 N para a direita e 500 N para a esquerda: ΣF = 500 − 500 = 0 N, portanto a = 0 m/s².',
+        warning:'aceleração zero pode significar repouso ou movimento com velocidade constante.'
+      },
+      dinamica:{
+        equation:'ΣF = m · a',caption:'Princípio Fundamental da Dinâmica',tag:'2ª Lei de Newton',name:'Força resultante e aceleração',
+        purpose:'Calcula como a soma das forças altera o movimento. A resultante e a aceleração têm a mesma direção e o mesmo sentido.',
+        when:'quando você precisa encontrar força resultante, massa ou aceleração.',
+        symbols:[['ΣF','força resultante','Soma vetorial das forças que atuam no corpo. Unidade: N.'],['m','massa','Mede a inércia do corpo. Unidade: quilograma (kg).'],['a','aceleração','Variação da velocidade a cada segundo. Unidade: m/s².']],
+        rearrange:'Para achar a aceleração: a = ΣF/m. Para achar a massa: m = ΣF/a. Para achar a resultante: ΣF = m·a.',
+        example:'Se ΣF = 20 N e m = 4 kg, então a = 20/4 = 5 m/s².',
+        warning:'use a força resultante, depois de somar forças de sentidos opostos; não use uma força isolada por engano.'
+      },
+      acao:{
+        equation:'F<sub>A→B</sub> = −F<sub>B→A</sub>',caption:'Par de forças de uma mesma interação',tag:'3ª Lei de Newton',name:'Ação e reação',
+        purpose:'Mostra que uma interação produz duas forças simultâneas, iguais em intensidade e opostas em sentido.',
+        when:'quando dois corpos interagem: pé e chão, foguete e gases, nadador e água, Terra e objeto.',
+        symbols:[['F<sub>A→B</sub>','força de A sobre B','Atua no corpo B. Unidade: newton (N).'],['F<sub>B→A</sub>','força de B sobre A','Atua no corpo A e tem a mesma intensidade.'],['−','sentido oposto','Indica oposição vetorial; não significa intensidade menor.']],
+        rearrange:'Os módulos são iguais: |F<sub>A→B</sub>| = |F<sub>B→A</sub>|. Os vetores apontam em sentidos contrários.',
+        example:'Se o pé empurra o chão para trás com 300 N, o chão empurra o pé para a frente com 300 N.',
+        warning:'as duas forças não se anulam porque atuam em corpos diferentes.'
+      },
+      peso:{
+        equation:'P = m · g',caption:'Força gravitacional sobre o corpo',tag:'Gravidade',name:'Fórmula do peso',
+        purpose:'Calcula a intensidade da força com que um astro atrai um corpo próximo de sua superfície.',
+        when:'quando a questão fornece massa e gravidade, ou pede o peso de um objeto.',
+        symbols:[['P','peso','Força gravitacional. Unidade: newton (N).'],['m','massa','Quantidade de matéria/inércia. Unidade: kg.'],['g','aceleração da gravidade','Na Terra, aproximadamente 9,8 m/s² ou 10 m/s² em exercícios.']],
+        rearrange:'Para achar a massa: m = P/g. Para achar a gravidade: g = P/m.',
+        example:'Para m = 60 kg e g = 10 m/s²: P = 60·10 = 600 N.',
+        warning:'massa e peso não são sinônimos. A massa permanece igual; o peso muda quando g muda.'
+      },
+      atrito:{
+        equation:'F<sub>at,c</sub> = μ<sub>c</sub> · N',caption:'Atrito cinético durante o deslizamento',tag:'Força de contato',name:'Fórmula do atrito',
+        purpose:'Calcula o módulo do atrito cinético. Para o atrito estático, vale F<sub>at,e</sub> ≤ μ<sub>e</sub>·N.',
+        when:'quando duas superfícies deslizam e o coeficiente de atrito e a força normal são conhecidos.',
+        symbols:[['F<sub>at</sub>','força de atrito','Opõe-se ao deslizamento ou à tendência de deslizar. Unidade: N.'],['μ','coeficiente de atrito','Número sem unidade que depende do par de superfícies.'],['N','força normal','Força perpendicular exercida pela superfície. Unidade: N.']],
+        rearrange:'No atrito cinético: μ<sub>c</sub> = F<sub>at,c</sub>/N. No estático, μ<sub>e</sub>·N é o valor máximo, não o valor obrigatório.',
+        example:'Com μ<sub>c</sub> = 0,20 e N = 100 N: F<sub>at,c</sub> = 0,20·100 = 20 N.',
+        warning:'o atrito estático se ajusta até um máximo; ele nem sempre vale μ<sub>e</sub>·N.'
+      },
+      mola:{
+        equation:'F<sub>el</sub> = k · x',caption:'Lei de Hooke — módulo da força',tag:'Elasticidade',name:'Fórmula da força elástica',
+        purpose:'Calcula o módulo da força restauradora de uma mola ideal deformada.',
+        when:'quando uma mola foi comprimida ou esticada e são conhecidos k e x.',
+        symbols:[['F<sub>el</sub>','força elástica','Força da mola. Unidade: newton (N).'],['k','constante elástica','Mede a rigidez da mola. Unidade: N/m.'],['x','deformação','Quanto a mola mudou de comprimento. Unidade: metro (m).']],
+        rearrange:'Para achar a deformação: x = F<sub>el</sub>/k. Para achar a rigidez: k = F<sub>el</sub>/x.',
+        example:'Para k = 200 N/m e x = 0,05 m: F<sub>el</sub> = 200·0,05 = 10 N.',
+        warning:'em forma vetorial aparece um sinal negativo, F⃗ = −k·x⃗, indicando que a força aponta contra a deformação.'
+      },
+      normalTracao:{
+        equation:'N e T: use ΣF = m · a',caption:'Forças sem fórmula única',tag:'Análise por eixos',name:'Normal e tração',
+        purpose:'Normal e tração são tipos de força, mas seus valores dependem das outras forças e da aceleração do sistema.',
+        when:'quando há superfícies, fios, cordas, cabos ou polias no problema.',
+        symbols:[['N','força normal','Contato perpendicular à superfície. Unidade: newton (N).'],['T','força de tração','Força transmitida por um fio ou cabo esticado. Unidade: N.'],['ΣF','equação do sistema','Some as forças de cada eixo e iguale a m·a.']],
+        rearrange:'Escolha um eixo, atribua sinais e isole N ou T na equação da 2ª lei. Exemplo vertical: N − P = m·a<sub>y</sub>.',
+        example:'Livro parado na mesa, sem outras forças verticais: N − P = 0, portanto N = P. Isso vale por causa dessa situação, não como regra universal.',
+        warning:'a normal não é sempre igual ao peso, e a tração pode mudar conforme a aceleração e a configuração do sistema.'
+      }
+    };
+    function paintFormula(key){const d=formulaData[key];$('#decoderEquation').innerHTML=d.equation;$('#decoderCaption').textContent=d.caption;$('#decoderTag').textContent=d.tag;$('#decoderName').textContent=d.name;$('#decoderPurpose').innerHTML=d.purpose;$('#decoderWhen').innerHTML=d.when;$('#decoderSymbols').innerHTML=d.symbols.map(([symbol,name,meaning])=>`<div class="symbol-card"><code>${symbol}</code><strong>${name}</strong><span>${meaning}</span></div>`).join('');$('#decoderRearrange').innerHTML=d.rearrange;$('#decoderExample').innerHTML=d.example;$('#decoderWarning').innerHTML=d.warning;}
+    $$('.formula-tab').forEach(btn=>btn.onclick=()=>{$$('.formula-tab').forEach(tab=>{tab.classList.remove('active');tab.setAttribute('aria-selected','false')});btn.classList.add('active');btn.setAttribute('aria-selected','true');paintFormula(btn.dataset.formulaKey);});
+    paintFormula('inercia');
 
     // Calculator
     ['calcF','calcM','calcA'].forEach(id=>$('#'+id).addEventListener('input',()=>{const f=parseFloat($('#calcF').value),m=parseFloat($('#calcM').value),a=parseFloat($('#calcA').value),r=$('#calcResult');const filled=[f,m,a].filter(Number.isFinite).length;if(filled!==2){r.textContent='Preencha exatamente dois campos e deixe a incógnita vazia.';return;}if(!Number.isFinite(f)){if(m<=0){r.textContent='A massa deve ser maior que zero.';return;}r.textContent=`F = m·a = ${m} × ${a} = ${(m*a).toLocaleString('pt-BR')} N`;}else if(!Number.isFinite(m)){if(a===0){r.textContent='Com a = 0, não é possível determinar m apenas por essa relação.';return;}r.textContent=`m = F/a = ${f} ÷ ${a} = ${(f/a).toLocaleString('pt-BR',{maximumFractionDigits:3})} kg`;}else{if(m<=0){r.textContent='A massa deve ser maior que zero.';return;}r.textContent=`a = F/m = ${f} ÷ ${m} = ${(f/m).toLocaleString('pt-BR',{maximumFractionDigits:3})} m/s²`;}}));
